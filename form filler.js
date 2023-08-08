@@ -531,7 +531,7 @@ function getProgressBar(progress, length) {
 function generateRandomGrid(form, question, formResponse) {
   var gridItem = question.asGridItem();
   var gridRows = gridItem.getRows();
-  var gridColumns = [['1', '2', '3', '4'], ['2', '3', '4', '1'], ['3', '4', '1', '2'], ['4', '1', '2', '3']];
+  var gridColumns = [['1', '2', '3', '4'], ['2', '3', '4', '1'], ['3', '4', '1', '2'], ['4', '1', '2', '3']];//add possibilities to array
   var temp1=0;
   var randomGridResponse = [];
   var rowIndex;
